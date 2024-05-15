@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #e4e0e0;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(14, 12, 11, 0.827);
+}
+
+.perfil {
+    text-align: center;
+}
+
+.perfil img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    
+}
+
+.social-links a {
+    width: 350px;
+    color: #136a80;
+    margin: 0 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px 0 20px;
+    
+    
+}
+
+.cabecalho {
+    background-image: linear-gradient(to right, #E4E0E0, #393D3F);
+}
+
+.sobre, .educacao, .experiencia {
+    margin-top: 30px;
+}
+
+h1, h2 {
+    color: #393d3f;
+}
+
+a {
+    text-decoration: none;
+}
+
+a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+a img:hover {
+    transform: scale(1.1);
+}
+
+
+
